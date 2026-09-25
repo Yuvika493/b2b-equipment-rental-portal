@@ -29,10 +29,10 @@ Built as a complete MERN-stack capstone project, with a clean separation between
 
 | Environment | Link |
 |---|---|
-| 🌐 Frontend | [Add your deployed frontend link here] |
-| ⚙️ Backend API | [Add your deployed backend link here] |
+| 🌐 Frontend | [[(https://b2b-equipment-rental-portal.vercel.app/)](https://b2b-equipment-rental-portal.vercel.app/)] |
+| ⚙️ Backend API | [[(https://b2b-equipment-rental-portal-1.onrender.com)](https://b2b-equipment-rental-portal-1.onrender.com)] |
 
-> Replace the links above once you've deployed (e.g. Vercel/Netlify for the frontend, Render/Railway for the backend).
+
 
 ---
 
