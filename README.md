@@ -29,8 +29,8 @@ Built as a complete MERN-stack capstone project, with a clean separation between
 
 | Environment | Link |
 |---|---|
-| 🌐 Frontend | [[(https://b2b-equipment-rental-portal.vercel.app/)](https://b2b-equipment-rental-portal.vercel.app/)] |
-| ⚙️ Backend API | [[(https://b2b-equipment-rental-portal-1.onrender.com)](https://b2b-equipment-rental-portal-1.onrender.com)] |
+| 🌐 Frontend | [[(https://b2b-equipment-rental-portal.vercel.app/)](https://b2b-equipment-rental-portal-m87d.vercel.app/)] |
+| ⚙️ Backend API | [[(https://b2b-equipment-rental-portal-1.onrender.com)]( https://b2b-equipment-rental-portal-2.onrender.com)] |
 
 
 
