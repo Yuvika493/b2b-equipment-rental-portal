@@ -31,8 +31,8 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <Link to="/admin/bookings" className="navbar__link">
-            Admin Bookings
+          <Link to="/admin/login" className="navbar__link">
+            Admin Portal
           </Link>
         </nav>
 
@@ -71,8 +71,8 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <Link to="/admin/bookings" className="navbar__mobile-link" onClick={() => setMenuOpen(false)}>
-            Admin Bookings
+          <Link to="/admin/login" className="navbar__mobile-link" onClick={() => setMenuOpen(false)}>
+            Admin Portal
           </Link>
           <a href="/#equipment" className="navbar__cta navbar__cta--mobile" onClick={() => setMenuOpen(false)}>
             Browse Equipment

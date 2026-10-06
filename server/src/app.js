@@ -3,6 +3,8 @@ const cors = require("cors");
 
 const equipmentRoutes = require("./routes/equipmentRoutes");
 const bookingRoutes = require("./routes/bookingRoutes");
+const authRoutes = require("./routes/authRoutes");
+const adminRoutes = require("./routes/adminRoutes");
 
 const app = express();
 
@@ -15,6 +17,8 @@ app.get("/", (req, res) => {
 
 app.use("/api/equipment", equipmentRoutes);
 app.use("/api/bookings", bookingRoutes);
+app.use("/api/auth", authRoutes);
+app.use("/api/admin", adminRoutes);
 
 // 404 handler
 app.use((req, res) => {

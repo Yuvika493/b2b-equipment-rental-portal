@@ -1,4 +1,5 @@
 const express = require("express");
+const requireAdmin = require("../middleware/authMiddleware");
 const {
   createBooking,
   getAllBookings,
@@ -8,7 +9,7 @@ const {
 const router = express.Router();
 
 router.post("/", createBooking);
-router.get("/", getAllBookings);
-router.patch("/:id/status", updateBookingStatus);
+router.get("/", requireAdmin, getAllBookings);
+router.patch("/:id/status", requireAdmin, updateBookingStatus);
 
 module.exports = router;
